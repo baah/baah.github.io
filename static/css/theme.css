@@ -244,7 +244,7 @@ span .comment{
     .subtext{
         display: inline-block;
         text-align: center;
-        font: normal 50% "Poiret One", serif;
+        font: normal 5% "Poiret One", serif;
         padding-top: 1%;
         line-height: 1%;
     }
@@ -284,14 +284,15 @@ span .comment{
     .footer{
         text-align: center; 
         background-color: #006567;
-        height: 20%;
+        height: 40%;
         margin-bottom: 0%
     }    
 
     .footer img {
-        width: 10%;
-        height: 10%;
-        margin: 10px;
+        float: center
+        width: 25%;
+        height: 25%;
+        margin: 10%;
     }
 
 }
