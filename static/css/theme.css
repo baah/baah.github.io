@@ -211,7 +211,7 @@ span .comment{
 
     body{
         margin: 0;
-        background-color: #EEEEEE;
+        background-color: #006567;
     }
 
     /* Adjusting bodyre settings to look better on mobile devices */
@@ -244,7 +244,7 @@ span .comment{
     .subtext{
         display: inline-block;
         text-align: center;
-        font: normal 5% "Poiret One", serif;
+        font: normal 50% "Poiret One", serif;
         padding-top: 1%;
         line-height: 1%;
     }
@@ -284,14 +284,13 @@ span .comment{
     .footer{
         text-align: center; 
         background-color: #006567;
-        height: 120%;
-        margin-bottom: 0%
+        height: 10%;
     }    
 
     .footer img {
         float: center
-        width: 125%;
-        height: 125%;
+        width: 100px;
+        height: 100px;
         margin: 20px;
     }
 
