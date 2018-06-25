@@ -235,16 +235,16 @@ span .comment{
 
     /* Enlarge title and center it at the top of the screen */
     .title{
-        display: block;
+        display: inline-block;
         text-align: center;
         font: normal 325% "Poiret One", serif;
         padding-top: 1%;
         line-height: 1%;
     }
     .subtext{
-         display: block;
+        display: inline-block;
         text-align: center;
-        font: normal 100% "Poiret One", serif;
+        font: normal 50% "Poiret One", serif;
         padding-top: 1%;
         line-height: 1%;
     }
@@ -284,13 +284,13 @@ span .comment{
     .footer{
         text-align: center; 
         background-color: #006567;
-        height: 16%;
-        float: bottom;
+        height: 20%;
+        margin-bottom: 0%
     }    
 
     .footer img {
-        width: 60px;
-        height: 60px;
+        width: 10%;
+        height: 10%;
         margin: 10px;
     }
 
