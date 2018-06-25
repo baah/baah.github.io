@@ -223,7 +223,7 @@ span .comment{
         text-rendering: optimizeLegibility;
         padding-right: 5%;
         padding-left: 5%;
-        height: 80%;
+        height: 85%;
         padding-bottom: 10%;
 }
 
@@ -245,8 +245,8 @@ span .comment{
     .subtext{
         display: inline-block;
         text-align: center;
-        font: normal 15% "Poiret One", serif;
-        padding-top: 15%;
+        font: normal 25% "Poiret One", serif;
+        padding-top: 5%;
         line-height: 1%;
     }
 
@@ -290,8 +290,8 @@ span .comment{
 
     .footer img {
         float: center
-        width: 150%;
-        height: 150%;
+        width: 500%;
+        height: 500%;
         margin: 20px;
     }
     
