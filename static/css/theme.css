@@ -209,15 +209,22 @@ span .comment{
         word-wrap: break-word;
     }
 
-    /* Adjusting body settings to look better on mobile devices */
     body{
-        background-color: #FDFDFD;
-        color: #353535;
-        font: normal 150% Palatino, "Palatino Linotype", serif;
+        margin: 0;
+        background-color: #EEEEEE;
+    }
+
+    /* Adjusting bodyre settings to look better on mobile devices */
+    .bodyre{
+        background-color: #EEEEEE;
+        color: #03363D;
+        font: normal 25px "Comfortaa", serif;
         text-rendering: optimizeLegibility;
         padding-right: 5%;
         padding-left: 5%;
-    }
+        height: 70%;
+        padding-bottom: 10%;
+}
 
     /* center the header for all pages */
     .header-container{
@@ -237,7 +244,7 @@ span .comment{
     .subtext{
          display: block;
         text-align: center;
-        font: normal 325% "Poiret One", serif;
+        font: normal 200% "Poiret One", serif;
         padding-top: 1%;
         line-height: 1%;
     }
@@ -275,7 +282,9 @@ span .comment{
 
     /* Enlarge font by 1.3 times the desktop website */
     .footer{
-        font: normal 130% "Comfortaa", serif;
+    text-align: center; 
+    background-color: #006567;
+    height: 8%;
     }    
 
 }
