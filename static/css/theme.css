@@ -1,11 +1,17 @@
 /* default body template for all webpages */
 body{
-    background-color: #006567;
-    color: #EEEEEE;
+   background-color: #EEEEEE;
+}
+
+.bodyre{
+    background-color: #EEEEEE;
+    color: #03363D;
     font: normal 25px "Comfortaa", serif;
     text-rendering: optimizeLegibility;
     padding-right: 25%;
     padding-left: 25%;
+    height: 70%;
+    padding-bottom: 10%;
 }
 
 /* make all links orange with no underline */
@@ -36,7 +42,7 @@ a:hover{
 }
 
 .title a{
-    color: #EEEEEE;
+    color: #03363D;
 }
 
 /* make title not underline when hovered */
@@ -45,6 +51,14 @@ a:hover{
     color: none;
     text-decoration: none;
 
+}
+
+.apps1{
+    font: bold 25px "Comfortaa", serif;
+}
+.apps2{
+    padding-top: 10px;
+    font: 20px "Comfortaa", serif;
 }
 
 nav{
@@ -67,13 +81,17 @@ nav ul li .nav-pad{
     padding-left: 4px;
 }
 
+/* change background color of the footer*/
 .footer{
-    text-align: center;
+    text-align: center; 
+    background-color: #006567;
+    height: 8%;
 }
 
 
 /* make all images same width and height*/
 .footer img {
+
   width: 30px;
   height: 30px;
   margin: 10px;
@@ -84,6 +102,7 @@ nav ul li .nav-pad{
     font: normal 25px "Comfortaa", serif;
     padding-left: 10%;
     padding-right: 10%;
+
 }
 
 /* make headers in page container custom font size */
