@@ -244,7 +244,7 @@ span .comment{
     .subtext{
          display: block;
         text-align: center;
-        font: normal 200% "Poiret One", serif;
+        font: normal 100% "Poiret One", serif;
         padding-top: 1%;
         line-height: 1%;
     }
@@ -282,9 +282,16 @@ span .comment{
 
     /* Enlarge font by 1.3 times the desktop website */
     .footer{
-    text-align: center; 
-    background-color: #006567;
-    height: 8%;
+        text-align: center; 
+        background-color: #006567;
+        height: 16%;
+        float: bottom;
     }    
+
+    .footer img {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
 
 }
