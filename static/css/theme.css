@@ -214,6 +214,7 @@ span .comment{
         background-color: #006567;
     }
 
+
     /* Adjusting bodyre settings to look better on mobile devices */
     .bodyre{
         background-color: #EEEEEE;
@@ -245,7 +246,7 @@ span .comment{
         display: inline-block;
         text-align: center;
         font: normal 150% "Poiret One", serif;
-        padding-top: 1%;
+        padding-top: 5%;
         line-height: 1%;
     }
 
@@ -284,7 +285,7 @@ span .comment{
     .footer{
         text-align: center; 
         background-color: #006567;
-        height: 1 px;
+        height: 0 px;
     }    
 
     .footer img {
