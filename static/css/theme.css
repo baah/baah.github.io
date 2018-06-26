@@ -282,6 +282,15 @@ span .comment{
         font: normal 150% "Comfortaa", serif;
     }
 
+    .apps1{
+        font: bold 150% "Comfortaa", serif;
+    }
+
+    .apps2{
+        padding-top: 10px;
+        font: normal 150% "Comfortaa", serif;
+    }
+
     .footer{
         text-align: center; 
         background-color: #006567;
@@ -289,9 +298,10 @@ span .comment{
 
     }    
 
-    .footer img{
-        width: 100 px;
-        height: 100 px;
+    body img {
+        width: 60px;
+        height: 60px;
+        margin: 20px;
     }
 
     
