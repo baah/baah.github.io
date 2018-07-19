@@ -58,7 +58,8 @@ a:hover{
     font: bold 25px "Comfortaa", serif;
 }
 .apps2{
-    padding-top: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
     font: 20px "Comfortaa", serif;
 }
 
