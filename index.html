@@ -7,65 +7,104 @@
 <!-- About:  Personal website homepage -->
 
 <html>
-    <head>
-        <title> Seth D. Baah </title>
-        <link rel="stylesheet" type="text/css" href="./static/css/theme.css" media="screen" charset="utf-8"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret One">
-        <link rel="shortcut icon" href="./static/img/fav.ico" type="image/x-icon" />
+  <head>
+    <title>Seth D. Baah</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./static/css/theme.css"
+      media="screen"
+      charset="utf-8"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poiret One"
+    />
+    <link rel="shortcut icon" href="./static/img/fav.ico" type="image/x-icon" />
+  </head>
 
-    </head>
-
-    <body>
-    <div class = "bodyre">    
-        <div class="header-container">
-            <!-- Title -->
-            <div class="title">
-                <p> <a href="./index.html"> Seth D. Baah </a>  <br> <span class = "subtext">Software Engineer</span></p>
-
-            </div>
-
-            <!-- Navbar -->
-            <nav>
-                <ul>
-                    <!-- <li><a href="./portfolio.html"> portfolio </a><span class="nav-pad">-</span></li> -->
-                    <li><a href="./about.html"> about me </a><span class="nav-pad">-</span></li>
-                    <li><a href="./static/img/ResumePDF.pdf" target="tab"> résumé </a></li> 
-                </ul>
-            </nav>
+  <body>
+    <div class="bodyre">
+      <div class="header-container">
+        <!-- Title -->
+        <div class="title">
+          <p>
+            <a href="./index.html"> Seth D. Baah </a> <br />
+            <span class="subtext">Computer Scientist</span>
+          </p>
         </div>
-        <hr/>
 
-        <!-- Bio -->
-        <div class="page-container">
-            <p>
-                Hi! I'm Seth-
-                I am also <span class="hover-underline"><a href="https://github.com/baah" target="tab">@baah</a></span> on Github.
-                <br/><br/>
-                I am currently a student at Rutgers University studying Computer Science.
-                <br/><br/>
-                If you want to get in touch, or just say hi, feel free to email me at <span class="hover-underline"> <a href="mailto:sgd58@scarletmail.rutgers.edu?Subject=Hello" target="_top">sgd58@scarletmail.rutgers.edu</a></span>.
-                <br/>
-            </p>
-        </div>
-    </div> 
+        <!-- Navbar -->
+        <nav>
+          <ul>
+            <!-- <li><a href="./portfolio.html"> portfolio </a><span class="nav-pad">-</span></li> -->
+            <li>
+              <a href="./about.html"> about me </a
+              ><span class="nav-pad">-</span>
+            </li>
+            <li>
+              <a href="./static/img/ResumePDF.pdf" target="tab"> résumé </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+
+      <!-- Bio -->
+      <div class="page-container">
+        <p>
+          Hi! I'm Seth- I am also
+          <span class="hover-underline"
+            ><a href="https://github.com/baah" target="tab">@baah</a></span
+          >
+          on Github. <br /><br />
+          I am currently a student at Rutgers University studying Computer
+          Science. <br /><br />
+          If you want to get in touch, or just say hi, feel free to email me at
+          <span class="hover-underline">
+            <a
+              href="mailto:sgd58@scarletmail.rutgers.edu?Subject=Hello"
+              target="_top"
+              >sgd58@scarletmail.rutgers.edu</a
+            ></span
+          >. <br />
+        </p>
+      </div>
+    </div>
     <!-- Footer -->
-        <div class="footer">
-            <a href="mailto:sgd58@scarletmail.rutgers.edu"><img src="./static/img/mail.svg" alt=""></a>
-            <a href="https://www.linkedin.com/in/seth-duodu-baah-517795124/" target="_blank"><img src="./static/img/linkedin.svg" alt=""></a>
-            <a href="https://github.com/baah" target="_blank"><img src="./static/img/github.svg" alt=""></a>
-        </div>
+    <div class="footer">
+      <a href="mailto:sgd58@scarletmail.rutgers.edu"
+        ><img src="./static/img/mail.svg" alt=""
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/seth-duodu-baah-517795124/"
+        target="_blank"
+        ><img src="./static/img/linkedin.svg" alt=""
+      /></a>
+      <a href="https://github.com/baah" target="_blank"
+        ><img src="./static/img/github.svg" alt=""
+      /></a>
+    </div>
 
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $("nav").hide().delay(1000).fadeIn(1500);
-                $(".bodyre").hide().slideDown(1500);
-                $(".footer img").hide().delay(1000).fadeIn(1500);
-            });
-        </script>
-
-
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("nav")
+          .hide()
+          .delay(1000)
+          .fadeIn(1500);
+        $(".bodyre")
+          .hide()
+          .slideDown(1500);
+        $(".footer img")
+          .hide()
+          .delay(1000)
+          .fadeIn(1500);
+      });
+    </script>
+  </body>
 </html>
