@@ -4,6 +4,13 @@ body{
    background-color: #EEEEEE;
 }
 
+.portlogos{
+    height: 50px;
+    width: 50px;
+}
+
+.project-container{}
+
 .bodyre{
     background-color: #EEEEEE;
     color: #03363D;
